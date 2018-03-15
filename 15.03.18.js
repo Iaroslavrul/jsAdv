@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-
-<body>
-    <script>
-        function reverseString(str) {
+//First
+function reverseString(str) {
             var strLen = str.length - 1;
             var i;
             var res = '';
@@ -18,10 +9,11 @@
             return res;
         }
         reverseString("hello");
+//End first
 
-    </script>
-    <script>
-        function factorialize(num) {
+
+//Second
+function factorialize(num) {
             if (num === 1 || num === 0) {
                 return 1;
             } else {
@@ -29,10 +21,11 @@
             }
         }
         factorialize(5);
+//End second
 
-    </script>
-    <script>
-        function palindrome(str) {
+
+//Third
+function palindrome(str) {
             var convToStr = String(str);
             convToStr = convToStr.toLowerCase();
             convToStr = convToStr.replace();
@@ -53,10 +46,11 @@
             }
         }
         palindrome("eye");
+//End Third
 
-    </script>
-    <script>
-        function palindrome(str) {
+
+//Fourth
+function palindrome(str) {
             var convToStr = String(str);
             convToStr = convToStr.toLowerCase();
             convToStr = convToStr.replace(/[^A-Za-z0-9]/g, '');
@@ -77,10 +71,12 @@
             }
         }
         palindrome("eye");
+//End Fourth
 
-    </script>
-    <script>
-        function findLongestWord(str) {
+
+//Fifth
+//Выдает ошибку, ве верно выводит значение длыны самого длинного слова
+function findLongestWord(str) {
             var strArr = str.split(' ');
             strArr.sort(function(a, b) {
                 return a.length - b.length;
@@ -92,8 +88,4 @@
         }
 
         findLongestWord("The quick brown fox jumped over the lazy dog");
-
-    </script>
-</body>
-
-</html>
+//End Fifth
