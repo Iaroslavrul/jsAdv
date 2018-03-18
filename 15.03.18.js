@@ -75,7 +75,7 @@ function palindrome(str) {
 
 
 //Fifth
-//Выдает ошибку, ве верно выводит значение длыны самого длинного слова
+//Выдает ошибку, не верно выводит значение длины самого длинного слова
 function findLongestWord(str) {
             var strArr = str.split(' ');
             strArr.sort(function(a, b) {
