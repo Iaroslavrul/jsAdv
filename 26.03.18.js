@@ -89,6 +89,8 @@ function clickBtn() {
 
 
 //Дополнительная задача №2
+var arr = [1, 2, 3, 4];
+var ul = document.createElement('ul').className = 'ulElem';
 for (var i = 0; i < arr.length; i += 1) {
     var li = document.createElement('li');
     ul.appendChild(li);
@@ -98,7 +100,6 @@ for (var i = 0; i < arr.length; i += 1) {
 
 document.body.appendChild(ul);
 //End
-
 
 
 //Дополнительная задача №3
@@ -112,8 +113,9 @@ const isNegative = (arr) => {
     return false
 }
 isNegative([1, 2, 3]);
-
-
-var arr = [1, 2, 3, 4];
-var ul = document.createElement('ul').className = 'ulElem';
 //End
+
+
+
+
+
